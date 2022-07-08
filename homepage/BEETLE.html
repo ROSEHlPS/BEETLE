@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Welcome to Casey's journey!</title>
+        <link rel="stylesheet" type="text/css" href="beetle.css"/>
+        <script src="jquery-3.4.0.min.js"></script>
+        <script src="scripts/BEETLE.js"></script>
+    </head>
+    <header class="container">
+        <div class="navbar">
+            <button class="dropdown-btn">Menu 🞬
+                <i class="fa far-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <li>
+                    <a href= "pages/projectpage.html"target="_blank">Portfolio</a>
+                </li>
+                
+                <li>
+                    <a href="..."target="_blank">About Me</a>
+                </li>
+                <li>
+                    <a href="pages/contact.html"target="_blank">Contact</a>
+                </li>
+            </div>
+
+          <h1 class="col-sm-4">Get to Know Me!</h1>
+          <nav class="col-sm-8 text-right">
+              <!--
+                  CHANGE THE LINK TO GO TO ANOTHER SUBPAGE
+              -->
+            <ul>
+        </ul>
+        </nav>
+            
+            
+
+          </nav>
+          
+          </div>
+      </header>
+    </div>
+    <div class="header">
+        <h1>Welcome!</h1>
+        <h2>I'm Casey!</h2>
+        <p> I am a Mathematics-Computer Science student at the University of California, San Diego. I will be updating my portfolio here as I make my way through college!</p>
+        
+    </div>
+    <body>
+        
+        <div class="gallery">
+            <figure class="gallery-item">
+                <img class="thumbnail"
+        src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v939-nunny-mix-16_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=db0743b6e023265f9cdb2a12e343d32a">
+            </figure>
+        </div>
+           
+            <nav>
+            <ul>
+                <li><a
+                    href="#"><b>
+                        Home</b></a></li>
+                <li><a href="#">
+                        Work</a></li>
+                <li><a
+                    href="#">
+                        About Me</a></li>
+
+                </li>
+                </ul>
+                
+            <div class="row">
+                <div class="side">...</div>
+                <div class="main">...</div>
+        
+        </div>
+        
+                    </b>
+                </a>
+                </li>
+            </ul>
+            </nav>
+        </h1>
+        <script>
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+                } else {
+                dropdownContent.style.display = "block";
+                }
+                });
+            }
+        </script>
+    </body>
+</html>
+<script>
